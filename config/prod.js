@@ -1,5 +1,3 @@
-const { stripePublishableKey, stripeSecretKey } = require("./dev");
-
 // prod file
 module.exports = {
     cookieKey : process.env.COOKIE_KEY,
